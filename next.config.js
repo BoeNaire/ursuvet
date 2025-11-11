@@ -6,8 +6,8 @@ const nextConfig = {
     unoptimized: true,
   },
   // Update 'ursu-vet' to match your GitHub repository name
-  basePath: process.env.NODE_ENV === 'production' ? '/ursu-vet' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/ursu-vet' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/ursuvet' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/ursuvet' : '',
 };
 
 module.exports = nextConfig;
