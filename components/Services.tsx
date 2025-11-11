@@ -40,7 +40,7 @@ export default function Services() {
             Our Services
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Comprehensive veterinary care tailored to your pet's unique needs
+            Comprehensive veterinary care tailored to your pet&apos;s unique needs
           </p>
         </div>
 

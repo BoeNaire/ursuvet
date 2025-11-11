@@ -10,7 +10,7 @@ export default function Hero() {
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Compassionate veterinary services with years of experience. 
-              Your pet's health and happiness are our top priorities.
+              Your pet&apos;s health and happiness are our top priorities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a

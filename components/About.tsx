@@ -17,7 +17,7 @@ export default function About() {
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
               We understand that your pets are family, and we treat them with the same 
               care and attention we would want for our own. Every visit is an opportunity 
-              to ensure your pet's health, happiness, and well-being.
+              to ensure your pet&apos;s health, happiness, and well-being.
             </p>
             <div className="grid grid-cols-2 gap-6 mt-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
