@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function About() {
   return (
     <section id="about" className="py-20 bg-gradient-to-br from-primary-50 to-white">
@@ -33,11 +31,10 @@ export default function About() {
           <div className="relative">
             <div className="bg-white rounded-2xl shadow-2xl p-8">
               <div className="aspect-square rounded-xl overflow-hidden relative">
-                <Image
-                  src="/doctor.jpg"
+                <img
+                  src={process.env.NODE_ENV === 'production' ? '/ursuvet/doctor.jpg' : '/doctor.jpg'}
                   alt="Expert Veterinarian"
-                  fill
-                  className="object-cover"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="mt-6 text-center">
