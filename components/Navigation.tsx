@@ -38,6 +38,12 @@ export default function Navigation() {
                 About
               </Link>
               <Link
+                href="#testimonials"
+                className="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors"
+              >
+                Testimonials
+              </Link>
+              <Link
                 href="#contact"
                 className="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors"
               >
@@ -109,6 +115,13 @@ export default function Navigation() {
               onClick={() => setIsOpen(false)}
             >
               About
+            </Link>
+            <Link
+              href="#testimonials"
+              className="text-gray-700 hover:text-primary-600 block px-3 py-2 text-base font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              Testimonials
             </Link>
             <Link
               href="#contact"
